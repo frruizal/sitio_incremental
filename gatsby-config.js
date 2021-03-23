@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: process.env.BASIC_URL|| `http://formaciongobiernodelarioja.docker.localhost/`,
+        baseUrl:`http://formaciongobiernodelarioja.docker.localhost/`,
       },
     },
     `gatsby-transformer-sharp`,
